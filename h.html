@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bai_TH_1</title>
+    <link href="Bai_Thuc_Hanh_1.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Chèn ảnh với viền đen độ rộng viền 2px, chiều rộng ảnh 99.8%, chiều cao 200px -->
+    <div style=" border: 2px solid black;width:99.8%;height:200px"> <img src="forest.jpg" width="100%" height="200px" alt="Khong co anh" /></div>
+    <!--Tạo div cha với các div con xếp thành hàng ngang-->
+    <div style="display: flex;">
+        <div id="div1">
+            <span class="span">Trang Chủ</span>
+            <!--Tạo danh sách với kiểu hình tròn đen-->
+            <ul>
+                <li>Lưu bút</li>
+                <li>Nghe nhạc</li>
+                <li>Xem phim</li>
+                <li>Đọc chuyện</li>
+            </ul>
+            <p class="p">Tình yêu</p>
+            <!--Tạo danh sách với kiểu hình tròn-->
+            <ul style="list-style-type:circle">
+                <li>Thơ tình</li>
+                <li>Truyện tình</li>
+                <li>Vườn tình yêu</li>
+            </ul>
+        </div>
+        <div id="div3">
+            <!--Căn chữ ra giữa-->
+            <p class="p" style="text-align:center">Thông tin cá nhân</p>
+            <div style="display:flex;">
+                <!--Chèn ảnh hoa-->
+                <img src="flower.jpg" alt="Khong co anh" width="200px" height="270px" />
+                <!--2 div riêng đựng thông tin-->
+                <div id="phu1">
+                    <p>Họ và tên:<br /><br />Giới tính:<br /><br />Ngày sinh:<br /><br />Quê quán:<br /><br />E-mail:<br /><br />Điện thoại:<br /><br />Website:</p>
+                </div>
+                <div>
+                    <p id="p1">Phạm Thành Vương<br /><br />Nam<br /><br />09/11/2004<br /><br />Thái Bình<br /><br />vuongdicay.tb17@gmail.com<br /><br />0867066392<br /><br /><a href="https://instagram.com">https://instagram.com</a></p>
+                </div>
+            </div>
+            <div id="div4">
+                <!--Tạo 3 div để đựng sở thích, sở trường, sở đoản-->
+                <div class="div5">
+                    <p class="p2">Sở thích</p>
+                    <ul>
+                        <li class="li1">Nghe nhạc</li>
+                        <li class="li1">Ngủ</li>
+                        <li class="li1">Chơi game</li>
+                    </ul>
+                </div>
+                <div class="div5">
+                    <p class="p2">Sở trường</p>
+                    <ul style="list-style-type:circle">
+                        <li class="li1">Nghiên cứu</li>
+                        <li class="li1">Hát cải lương</li>
+                        <li class="li1">Đánh giày</li>
+                    </ul>
+                </div>
+                <div class="div5">
+                    <p class="p2">Sở đoản</p>
+                    <ul style="list-style-type:square;">
+                        <li class="li1">Lười</li>
+                        <li class="li1">Nấu ăn</li>
+                        <li class="li1">Quét nhà :))</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Tạo div để đựng hoạt động-->
+        <div id="div2">
+            <span class="span">Hoạt động</span>
+            <!--Tạo danh sách với kiểu tròn đen-->
+            <ul>
+                <li>Tham quan Viện bảo tàng dân tộc học</li>
+                <li>Du lịch Cát Bà</li>
+                <li>Kỳ nghỉ mát ở Sầm Sơn</li>
+                <li>Hội thảo tại Côn Sơn</li>
+            </ul>
+        </div>
+
+    </div>
+    <!--Tạo div với khoảng cách từ lề đến nội dung là 10px-->
+    <div style="padding: 10px; background-color: wheat; text-align: center; border: 2px solid black;">
+        <p>Bản quyền thuộc về Phạm Thành Vương<br />E-mail:ptv.tb@mail.com&#9762;Phone:0123456789</p>
+
+    </div>
+</body>
+</html>
